@@ -15,6 +15,7 @@
 		0A700E961E1E2443000B7D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A700E941E1E2443000B7D94 /* LaunchScreen.storyboard */; };
 		0A700EA11E1E2443000B7D94 /* iOS_KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A700EA01E1E2443000B7D94 /* iOS_KVOTests.m */; };
 		0A700EAC1E1E2443000B7D94 /* iOS_KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A700EAB1E1E2443000B7D94 /* iOS_KVOUITests.m */; };
+		0A700EBB1E1E258B000B7D94 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A700EBA1E1E258B000B7D94 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A700EA71E1E2443000B7D94 /* iOS_KVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_KVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A700EAB1E1E2443000B7D94 /* iOS_KVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_KVOUITests.m; sourceTree = "<group>"; };
 		0A700EAD1E1E2443000B7D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A700EB91E1E258B000B7D94 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		0A700EBA1E1E258B000B7D94 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0A700E8A1E1E2443000B7D94 /* AppDelegate.m */,
 				0A700E8C1E1E2443000B7D94 /* ViewController.h */,
 				0A700E8D1E1E2443000B7D94 /* ViewController.m */,
+				0A700EB91E1E258B000B7D94 /* People.h */,
+				0A700EBA1E1E258B000B7D94 /* People.m */,
 				0A700E8F1E1E2443000B7D94 /* Main.storyboard */,
 				0A700E921E1E2443000B7D94 /* Assets.xcassets */,
 				0A700E941E1E2443000B7D94 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A700EBB1E1E258B000B7D94 /* People.m in Sources */,
 				0A700E8E1E1E2443000B7D94 /* ViewController.m in Sources */,
 				0A700E8B1E1E2443000B7D94 /* AppDelegate.m in Sources */,
 				0A700E881E1E2443000B7D94 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				0A700EB21E1E2443000B7D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A700EB31E1E2443000B7D94 /* Build configuration list for PBXNativeTarget "iOS_KVOTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				0A700EB51E1E2443000B7D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A700EB61E1E2443000B7D94 /* Build configuration list for PBXNativeTarget "iOS_KVOUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				0A700EB81E1E2443000B7D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
